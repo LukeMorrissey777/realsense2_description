@@ -54,9 +54,10 @@ This is the Gazebo URDF model for the Intel RealSense D435 camera
           <pose>0 0.0175 0 0 0 0</pose>
           <horizontal_fov>${85.2*deg_to_rad}</horizontal_fov>
           <image>
-            <width>1280</width>
-            <height>720</height>
-            <format>L_INT8</format>
+            <width>640</width>
+            <height>480</height>
+            <!-- <format>L_INT8</format> -->
+            <format>RGB_INT8</format>
           </image>
           <clip>
             <near>0.1</near>
@@ -77,9 +78,10 @@ This is the Gazebo URDF model for the Intel RealSense D435 camera
           <pose>0 -0.0325 0 0 0 0</pose>
           <horizontal_fov>${85.2*deg_to_rad}</horizontal_fov>
           <image>
-            <width>1280</width>
-            <height>720</height>
-            <format>L_INT8</format>
+            <width>640</width>
+            <height>480</height>
+            <!-- <format>L_INT8</format> -->
+            <format>RGB_INT8</format>
           </image>
           <clip>
             <near>0.1</near>
